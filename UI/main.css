@@ -28,6 +28,7 @@ table, th, td {
     margin-top: 50px;
     border: 1px solid black;
     border-collapse: collapse;
+    margin-bottom: 100px;
 }
 th, td {
     padding: 5px;
@@ -35,7 +36,7 @@ th, td {
 }
 td{
 
-  width: 25%;
+  width: 40%;
 }
 
 
