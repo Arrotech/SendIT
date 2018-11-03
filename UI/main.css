@@ -9,7 +9,7 @@ header{
   align-items: center;
   justify-content: center;
   margin: 0;
-  background-color: #555;
+  background-color: #000000;
   color: white;
   width: 100%;
   left: 0;
@@ -43,12 +43,13 @@ label[for=email], label[for=psw], label[for=uname], label[for=cnf-psw], label[fo
 label[for=par-id], label[for=par-wgt], label[for=par-hgt], label[for=tel], label[for=street], 
 label[for=city], label[for=address-fnd], label[for=postal-code], label[for=par-name], label[for=track]
 {
-  margin: 5px 0 22px 400px;
+  margin: 5px 0 22px 450px;
 }
   input[type=text], input[type=password] {
-  width: 500px;
+  height: 20px;
+  width: 350px;
   padding: 15px;
-  margin: 5px 0 22px 400px;
+  margin: 5px 0 22px 450px;
   display: inline-block;
   border: none;
   background: #f1f1f1;
@@ -61,7 +62,8 @@ input[type=text]:focus, input[type=password]:focus {
 
 hr {
   border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 ul{
@@ -115,8 +117,22 @@ button:hover {
 }
 
 .signupbtn {
-  float: left;
-  width: 50%;
+  height: 40px;
+  width: 100px;
+  margin: 5px 0 22px 450px;
+}
+.signinbtn {
+  height: 40px;
+  width: 100px;
+  margin: 5px 0 22px 450px;
+}
+.track-parcelbtn{
+  height: 40px;
+  width: 150px;
+  margin: 5px 0 22px 500px;
+}
+.line{
+  display: flex;
 }
 
 /* Add padding to container elements */
@@ -133,7 +149,12 @@ nav.container{
 .container {
   padding: 16px;
   align-content: center;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+form.container{
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 /* Clear floats */
@@ -153,15 +174,16 @@ nav.container{
   margin: 5px 0 22px 400px;
 }
 footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(22, 191, 197);
-    color: black;
+    background-color: #000000;
+    color: white;
     font-size: 14px;
     text-align: center;
     margin-top: 100px;
+    font-family: helvetica;
 }
 .footer-divide{
  margin: 0;
