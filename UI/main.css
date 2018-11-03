@@ -126,6 +126,12 @@ button:hover {
   width: 100px;
   margin: 5px 0 22px 450px;
 }
+.submit{
+  height: 50px;
+  width: 200px;
+  margin: 5px 0 22px 450px;
+}
+}
 .track-parcelbtn{
   height: 40px;
   width: 150px;
