@@ -47,12 +47,12 @@
                           </tr>
                           <tr>
                             <td>ET-8785H</td>
-                            <td style="color: yellow;">Pending</td>
+                            <td style="color: aqua;">Pending</td>
                             <td style="font-size: 12px;"><a href="#"><i>Cancel order</i></a></td>
                           </tr>
                           <tr>
                             <td>ET-8785H</td>
-                            <td style="color: yellow;">Pending</td>
+                            <td style="color: aqua;">Pending</td>
                             <td style="font-size: 12px;"><a href="#"><i>Cancel order</i></a></td>
                           </tr>
                           <tr>
@@ -88,6 +88,22 @@
                     </table>
                   </div>
                   </div>
+                   <h3>Parcel Delivery Destination</h3>
+                      <div id="map"></div>
+                      <script>
+                        function initMap() {
+                          var Eldoret = {lat: 35.2664, lng: 0.5152};
+                          var map = new google.maps.Map(
+                              document.getElementById('map'), {zoom: 5, center: Eldoret});
+                          var marker = new google.maps.Marker({position: Eldoret, map: map});
+                        }
+                      </script>
+                      <script async defer
+                      src="https://maps.googleapis.com/maps/api/js?key=
+                          AIzaSyD9qp4hcp5qgG6_p3fxCx3rlTDF2Mxl6sQ
+                          &callback=initMap">
+                      </script>
+
                 <footer>
                     <div class="footer-divide">
                         <div class="divide">
