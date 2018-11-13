@@ -3,7 +3,7 @@
 
 A courier service that helps users deliver parcels to different destinations. SendIT provides courier quotes based on weight categories.
 
-[SenIT URL]: https://arrotech.github.io/SendIT/UI/
+ -[SenIT URL]: https://arrotech.github.io/SendIT/UI/
 
 
 **Getting started**
@@ -11,7 +11,7 @@ A courier service that helps users deliver parcels to different destinations. Se
 
 
 
-Create a home page. The name of the site is SENDIT. This shows the site is for placing parcel orders.This is a landing page that firsts introduces the users to the site. This is where most consumers define an ideal web experience as being able to find what they’re looking for quickly. This page allows the customers to track their orders by putting in the parcel tracker id in question. The page enables the users to see one among the courier services that are offered. Once a decides to place a parcel the delivery order he/she will be prompted to place an order on the link below the tracker field. The footer of the page shows in a nutshell what the website is about and quick links through the website. Among them are AboutUs which simply takes one to a page that descibes about the company. Also the footer stipulates the contacts such as email and telephone number. The services offerred can also be accessed from the footer at a glance.
+Create a home page. This shows the site is for placing parcel orders.This is a landing page that firsts introduces the users to the site. This is where most consumers define an ideal web experience as being able to find what they’re looking for quickly. This page allows the customers to track their orders by putting in the parcel tracker id in question. The page enables the users to see one among the courier services that are offered. Once a decides to place a parcel the delivery order he/she will be prompted to place an order on the link below the tracker field. The footer of the page shows in a nutshell what the website is about and quick links through the website. Among them are AboutUs which simply takes one to a page that descibes about the company. Also the footer stipulates the contacts such as email and telephone number. The services offerred can also be accessed from the footer at a glance.
 
 
 
@@ -28,7 +28,6 @@ Create a sign up form to register new user.Incase a user does not have an accoun
 
 Create a user profile page. This is where users can view account details and delivery orders and their progress. The progress could be InTransit(pending) , Delivered or Cancelled. Once a user creates an accout he/she is logged in to their account. Aslo a user can acces their profile/account page through the login page.The users display/username will be at the right corner of the page. This shows they are currently logged in. The user can view delivery orders where he/she can cancel a deliery order only if its InTransit/pending. The total number of delivered orders, pending orders and cancelled orders will also be displayed on this page. A user can also access their profile where they can change their username, email , password and profile pictures. The user can also access the settings where he/she can change according to their preferences. The user can also log out of the page by clicking the sign out button. 
 
-**Admin Page**
 
 
 Create an administrator page. This is where an admin can view customers delivery orders. The admin can change the status of a delivery order either as delivered or Intransit. Also the admin, from this same page, he/she can change the present location of a parcel delivery order. The admin can also acces his/her profile details and settings on the menu sidebar at the top-right corner.
@@ -40,7 +39,7 @@ Create an administrator page. This is where an admin can view customers delivery
 Add a CSS sheet. This file makes the appearance of these pages presentable. For example changing the size of the font texts. Also adding backround colors to the forms, navigation bar, buttons tables and the pages. 
 
 
-**Parcel Order Page**
+
 
 
 Create a parcel delivery order page. This page allows users to create new orders by filling in the form with delivery details such as the contact details and the address details. The user is expected to provide all the required information for a particular delivery order. The parcel id should be unique as it uniquely identifies a specific delivery order. The address find helps one find the addresses to particular places. Once a user clicks the Order button he/she will be taken to billing form where he/she can input credit card details and checkout inorder to make payments for a single or several deliveries by adding them to the delivery cart. 
@@ -49,9 +48,11 @@ Create a parcel delivery order page. This page allows users to create new orders
 **Prerequisites**
 
 
- *Sublime text
- *Pivotal tracker
- *Github repository
+    *Sublime text
+
+    *Pivotal tracker
+
+    *Github repository
 
 
 **Installing**
@@ -67,12 +68,17 @@ Create a parcel delivery order page. This page allows users to create new orders
 
 The website can be tested by vising the following links to each page.
 
- -[Home page]: https://arrotech.github.io/SendIT/UI/index.html
- -[Login]: https://arrotech.github.io/SendIT/UI/login.html
- -[Parcel delivery page] :https://arrotech.github.io/SendIT/UI/parcel_order.html
- -[User account page]: https://arrotech.github.io/SendIT/UI/user.html
- -[Admin accoutn page]: https://arrotech.github.io/SendIT/UI/user.html
- -[CSS style sheet]: https://arrotech.github.io/SendIT/UI/main.css
+  -[Home page]: https://arrotech.github.io/SendIT/UI/index.html
+
+  -[Login]: https://arrotech.github.io/SendIT/UI/login.html
+
+  -[Parcel delivery page]: https://arrotech.github.io/SendIT/UI/parcel_order.html
+
+  -[User account page]: https://arrotech.github.io/SendIT/UI/user.html
+
+  -[Admin accoutn page]: https://arrotech.github.io/SendIT/UI/user.html
+
+  -[CSS style sheet]: https://arrotech.github.io/SendIT/UI/main.css
 
 
 
@@ -81,7 +87,7 @@ The website can be tested by vising the following links to each page.
 
 This website has been deployed on GitHub and can be accessed through 
 
- -[GitHub pages]: https://arrotech.github.io/SendIT/UI/
+  -[GitHub pages]: https://arrotech.github.io/SendIT/UI/
 
 **Author**
 
