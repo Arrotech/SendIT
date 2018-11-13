@@ -48,37 +48,37 @@ Create a parcel delivery order page. This page allows users to create new orders
 **Prerequisites**
 
 
-    *Sublime text
+    -Sublime text
 
-    *Pivotal tracker
+    -Pivotal tracker
 
-    *Github repository
+    -Github repository
 
 
 **Installing**
 
 
- -sudo apt install sublime-text
- -sudo apt install firefox
- -Create an account with pivotal tracker.
- -Create an an account with GitHub and create a repository.
+    -sudo apt install sublime-text
+    -sudo apt install firefox
+    -Create an account with pivotal tracker.
+    -Create an an account with GitHub and create a repository.
 
 **Running the tests**
 
 
 The website can be tested by vising the following links to each page.
 
-  -[Home page]: https://arrotech.github.io/SendIT/UI/index.html
+    -[Home page]: https://arrotech.github.io/SendIT/UI/index.html
 
-  -[Login]: https://arrotech.github.io/SendIT/UI/login.html
+    -[Login]: https://arrotech.github.io/SendIT/UI/login.html
 
-  -[Parcel delivery page]: https://arrotech.github.io/SendIT/UI/parcel_order.html
+    -[Parcel delivery page]: https://arrotech.github.io/SendIT/UI/parcel_order.html
 
-  -[User account page]: https://arrotech.github.io/SendIT/UI/user.html
+    -[User account page]: https://arrotech.github.io/SendIT/UI/user.html
 
-  -[Admin accoutn page]: https://arrotech.github.io/SendIT/UI/user.html
+    -[Admin accoutn page]: https://arrotech.github.io/SendIT/UI/user.html
 
-  -[CSS style sheet]: https://arrotech.github.io/SendIT/UI/main.css
+    -[CSS style sheet]: https://arrotech.github.io/SendIT/UI/main.css
 
 
 
@@ -87,23 +87,23 @@ The website can be tested by vising the following links to each page.
 
 This website has been deployed on GitHub and can be accessed through 
 
-  -[GitHub pages]: https://arrotech.github.io/SendIT/UI/
+    -[GitHub pages]: https://arrotech.github.io/SendIT/UI/
 
 **Author**
 
 
- -Harun Gachanja Gitundu.
+    -Harun Gachanja Gitundu.
 
 **Collaborators**
 
 
- -Mark.
+    -Mark.
 
- -Wilson.
+    -Wilson.
 
- -Abraham Ogol.
+    -Abraham Ogol.
 
- -Cynthia.
+    -Cynthia.
 
 **Acknowledgements**
 
