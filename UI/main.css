@@ -1,5 +1,5 @@
 body{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Helvetica, sans-serif Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;
   background: white;
   margin: 0;
@@ -20,17 +20,17 @@ div h2{
   text-align: center;
 }
 h2{
-  /*margin: 5px 0 22px 500px;*/
   padding-top: 20px;
 }
 
 * {
   box-sizing: border-box;
 }
- #map { bottom: 0px;
-        height: 400px;  /* The height is 400 pixels */
-        width: 100%;  /* The width is the width of the web page */
-       }
+#map { 
+  bottom: 0px;
+  height: 400px;
+  width: 100%;  
+}
 
 
 /* Table css */
@@ -98,6 +98,14 @@ li a:hover{
   background-color: #555;
   color: white;
 }
+.signup-nav{
+  margin: 0 0 0 855px;
+}
+
+.signup-nav2{
+  margin: 0 0 0 845px;
+}
+
 .active{
   background-color: #555;
 }
@@ -117,9 +125,8 @@ button {
 button:hover {
   opacity:1;
 }
-.position{
- /* margin: 5px 0 22px 400px;*/
-}
+
+
 .trackbtn{
   margin: 50px 0 22px 130px;
 
@@ -141,7 +148,7 @@ button:hover {
   /*margin: 5px 0 22px 450px;*/
 }
 
-}
+
 .line{
   display: flex;
 }
@@ -153,13 +160,33 @@ nav.container{
 
   
 }
-.wrap{
-  background: white;
-  width: 27.20%;
+.wrap-login{
+  background: rgb(228, 221, 221);
+  width: 27.89%;
   /*margin: 5px 0 22px 450px;*/
   margin: 0 auto;
-  height: 50%;
+  height: 38%;
+  background-origin: padding-box;
 }
+
+.wrap-register{
+  background: rgb(228, 221, 221);
+  width: 27.89%;
+  /*margin: 5px 0 22px 450px;*/
+  margin: 0 auto;
+  height: 59%;
+  background-origin: padding-box;
+}
+
+.wrap-order{
+  background: rgb(228, 221, 221);
+  width: 27.89%;
+  /*margin: 5px 0 22px 450px;*/
+  margin: 0 auto;
+  height: 120%;
+  background-origin: padding-box;
+}
+
 .wrap-home{
   background: white;
   width: 27.20%;
@@ -170,7 +197,7 @@ nav.container{
 .container-up{
   margin: 0 auto;
 }
-}
+
 .container {
   padding: 16px;
   align-content: center;
@@ -198,9 +225,7 @@ table {
     width: 100%;
   }
 }
-.lnk{
-  /*margin: 5px 0 22px 400px;*/
-}
+
 footer {
     position: relative;
     left: 0;
