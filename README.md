@@ -3,7 +3,7 @@
 
 A courier service that helps users deliver parcels to different destinations. SendIT provides courier quotes based on weight categories.
 
- -[SenIT URL]: https://arrotech.github.io/SendIT/UI/
+    -[SenIT URL]: https://arrotech.github.io/SendIT/UI/
 
 
 **Getting started**
