@@ -5,6 +5,11 @@ body{
   margin: 0;
   padding: 0;
 }
+
+p{
+  font-size: 16px;
+}
+
 header{
   display: flex;
   align-items: center;
@@ -31,7 +36,9 @@ h2{
   height: 400px;
   width: 100%;  
 }
-
+table {
+  margin-left: 10px;
+}
 
 /* Table css */
 table, th, td {
@@ -39,6 +46,7 @@ table, th, td {
     border: 4px solid black;
     border-collapse: collapse;
     margin-bottom: 100px;
+    background: rgb(22, 191, 197);
 }
 th, td {
     padding: 5px;
@@ -46,7 +54,7 @@ th, td {
 }
 td{
 
-  width: 40%;
+  width: 20%;
 }
 
 
@@ -161,36 +169,35 @@ nav.container{
   
 }
 .wrap-login{
-  background: rgb(228, 221, 221);
   width: 27.89%;
-  /*margin: 5px 0 22px 450px;*/
   margin: 0 auto;
   height: 38%;
   background-origin: padding-box;
 }
+.wrap-specific{
+  width: 27.89%;
+  margin: 0 auto;
+  height: 38%;
+  background-origin: padding-box;
+  float: left;
+}
 
 .wrap-register{
-  background: rgb(228, 221, 221);
   width: 27.89%;
-  /*margin: 5px 0 22px 450px;*/
   margin: 0 auto;
   height: 59%;
   background-origin: padding-box;
 }
 
 .wrap-order{
-  background: rgb(228, 221, 221);
   width: 27.89%;
-  /*margin: 5px 0 22px 450px;*/
   margin: 0 auto;
   height: 120%;
   background-origin: padding-box;
 }
 
 .wrap-home{
-  background: white;
   width: 27.20%;
-  /*margin: 5px 0 22px 450px;*/
   margin: 0 auto;
   height: 50%;
 }
@@ -204,22 +211,13 @@ nav.container{
   margin: 0 auto;
   
 }
-table {
-  margin-left: 10px;
-}
-/*form.container{
-  margin-top: 100px;
-  margin-bottom: 100px;
-}*/
 
-/* Clear floats */
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
 
-/* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
   .signinbtn, .submit, .signupbtn {
     width: 100%;
@@ -235,7 +233,7 @@ footer {
     color: white;
     font-size: 14px;
     text-align: center;
-    margin-top: 500px;
+    margin-top: 150px;
     font-family: helvetica;
 }
 .footer-divide{
@@ -248,23 +246,19 @@ footer {
   text-align: center;
 }
 
-
-/* Side bar menu*/
-
 .sidenav {
     float : right;
-    height: 30%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 170px; /* Stay at the top */
+    height: 30%; 
+    width: 160px;
+    position: fixed; 
+    z-index: 1; 
+    top: 27%; 
     right: 0;
-    background-color: #111; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
+    background-color: #111;
+    overflow-x: hidden;
     padding-top: 20px;
 }
 
-/* The navigation menu links */
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
@@ -273,18 +267,18 @@ footer {
     display: block;
 }
 
-/* When you mouse over the navigation links, change their color */
+
 .sidenav a:hover {
     color: #f1f1f1;
 }
 
-/* Style page content */
+
 .main {
-    margin-left: 160px; /* Same as the width of the sidebar */
+    margin-left: 160px; 
     padding: 0px 10px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
